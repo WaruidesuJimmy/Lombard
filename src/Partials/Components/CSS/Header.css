@@ -1,0 +1,54 @@
+.header_container{
+    margin-top: 20px;
+    width: 100%;
+    display:flex;
+    top: 0%;
+    left: 0%;
+    position: fixed;
+    height: 100px;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.header_title_container{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-left: 65%;
+    width: 35%
+
+}
+
+.header_title{
+    text-align: center;
+    margin: 20px;
+    width: 50%;
+    position: relative;
+    
+}
+
+.header_title:first-child{
+    
+    background-color: #fbda03;
+    border-radius: 10px 10px 10px 10px;
+    opacity: 0.7;
+}
+
+.header_title:last-child:hover{
+    
+    background-color: #fbda03;
+    border-radius: 10px 10px 10px 10px;
+    opacity: 0.9;
+}
+
+.header_title:last-child{
+    
+    color: white
+}
+
+
+.header_title span{
+    position: relative;
+    top:33%;
+}
+

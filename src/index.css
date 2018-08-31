@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans");
+html{
+  position: relative;
+  min-height: 100vh;
+  min-width: 100vh;
+  margin: 0px 0px 0px 0px;
+  overflow-x: hidden;
+  /* width: 100vh;
+  height: 100vh; */
+
+  background-image: url('back-pattern.jpg') 50% 30px;
+  /* align-items: center;
+  justify-content: center; */
+  font-family: "Fira Sans", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body{
+  position: absolute;
+  background-image: url('back-pattern.jpg');
+  background-repeat: repeat;
+  height: 100%;
+  width: 100%;
+  /* background-color: #E1E8EE; */
+  display: flex;
+  /* align-items: center;
+  justify-content: center; */
+  font-family: "Fira Sans", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

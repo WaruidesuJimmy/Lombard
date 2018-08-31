@@ -1,0 +1,55 @@
+.card_container{
+    display: flex;
+    position: relative;
+    height: 70vh;
+}
+
+.card{
+    position: relative;
+    margin: 10px 10px 10px 10px;
+    border-radius: 5px;
+    background-color: #1d1c1c;
+}
+
+
+
+.card.main_card{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    background-image: url('http://sponge.com.ua/files/uploaded/9qp9dZzs4R.jpg');
+    background-repeat: no-repeat;
+    background-position-x: 35%;
+    background-size: cover;
+}
+.second_block{
+    width: 66%;
+
+}
+
+.card.small_card{
+    width: 25%;
+}
+
+.card.big_card{
+    width:50%;
+}
+
+.card_row{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    height: 50%;
+    width: 100%;
+}
+
+.card.big_card.gold_picture{
+    background-color: rgba(251,218,3, 0.9)
+}
+
+.title.cards{
+    position: relative;
+    top:80%;
+    left: 30%;
+    color: #1d1c1c;
+}

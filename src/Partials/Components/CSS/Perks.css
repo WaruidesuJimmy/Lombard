@@ -1,0 +1,87 @@
+.title.perks{
+    left: 0%;
+    margin-top: 15px;
+}
+
+.card_container.perks{
+    flex-direction: column;
+}
+
+.card_row.perks{
+    left:12%;
+}
+
+.card.small_card.perks{
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.card.small_card.perks:hover{
+    animation-name: vibrate;
+    animation-duration: 0.5s;
+}
+
+@keyframes vibrate{
+    0%{
+        transform: rotateZ(0deg)
+    }
+    25%{
+        transform: rotateZ(5deg)
+    }
+    50%{
+        transform: rotateZ(0deg)
+    }
+    75%{
+        transform: rotateZ(-5deg)
+    }
+    100%{
+        transform: rotateZ(0deg)
+    }
+}
+
+.perks_image{
+    position: relative;
+    top: 25%;
+    left:35%;
+    width: 40%;
+    height: 40%;
+    background-repeat: no-repeat;
+    
+}
+
+.perks_image.first{
+    background-image: url('https://static.oneclickmoney.ru/images/pages/advantage1.svg')
+}
+
+.perks_image.second{
+    background-image: url('https://oneclickmoney.ru/new/images/pages/post-about2.svg')
+}
+
+.perks_image.third{
+    background-image: url('https://static.oneclickmoney.ru/images/pages/advantage3.svg')
+}
+
+.perks_image.fourth{
+    background-image: url('https://static.oneclickmoney.ru/images/pages/advantage4.svg')
+}
+
+.perks_image.fifth{
+    background-image: url('https://static.oneclickmoney.ru/images/pages/advantage5.svg')
+}
+
+.perks_image.sixth{
+    background-image: url('https://static.oneclickmoney.ru/images/svg/calc-head.svg')
+}
+
+.perks_image.seventh{
+    left: 30%;
+    background-image: url('https://oneclickmoney.ru/new/images/svg/email-con.svg')
+}
+
+.image_title{
+    text-align: center;
+    position: absolute;
+    color: #1d1c1c;
+    width: 100%;
+    top:80%;
+    left:0%;
+}
